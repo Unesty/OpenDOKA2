@@ -1,0 +1,2 @@
+# OpenDOKA2
+DOKA2 is a game, where you kill zombies, or you are zombie. This is a game where you kill people in the most brutal ways, so you can imagine defined place, for example, school. Explode and kill it as well. There is strange situation. You can craft bomb. Many different weapons are given. You can trade weapons, kills and battles of people. There is a weapon, with which you can pull out guts for 10 minutes. It takes for 10 minutes.
