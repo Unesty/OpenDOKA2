@@ -1,1 +1,14 @@
-
+#include <sys/syscall.h>
+#include <unistd.h>
+#include <EGL/egl.h>
+#include <GLES3/gl3.h>
+#include <vulkan/vk_platform.h>
+#include <vulkan/vulkan_core.h>
+#include <vulkan/vulkan_wayland.h>
+#include <wayland-client.h>
+#include <wayland-client-protocol.h>
+#include <wayland-egl.h>
+#include <xdg-shell.h>
+#include <libdrm/drm.h>
+#include <gbm.h>
+#include <linux/input-event-codes.h>
