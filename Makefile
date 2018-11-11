@@ -12,8 +12,8 @@ opendoka2: $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 install: opendoka2
 	install opendoka2 $(BINDIR)
-xdg-shell.c: xdg-shell-unstable-v6.xml
+xdg-shell.c: xdg-shell.xml
 	$(SCANNER) code < $< > $@
-xdg-shell.h: xdg-shell-unstable-v6.xml
+xdg-shell.h: xdg-shell.xml
 	$(SCANNER) client-header < $< > $@
 .PHONY: all clean
