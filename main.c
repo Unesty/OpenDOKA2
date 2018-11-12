@@ -12,20 +12,27 @@
 #include <libdrm/drm.h>
 #include <gbm.h>
 #include <linux/input-event-codes.h>
+char graphics_api;
 int main(int argc, char** argv)
 {
- switch argv[0]{
+ switch argv[1][0]{
  case 'h':{
   syscall(1,1,"Usage: opendoka2 [OPTIONS]\n
 					OPTIONS:\n
-						r [opengles or vulkan] Graphics API.\n
-						p [wayland or drm] 		 Windowing system.\n
-						h 										 Help.\n",139);
-	return 0;
-	break;
+						r [opengles or vulkan]  Graphics API.\n
+						p [wayland or drm]	Windowing system.\n
+						h 			Help.\n",139);
+  return 0;
+  break;
  }
-	case 'r':{
-	 
+ case 'r':{
+	 switch argv[1][1]{
+	 case 'o':{
+	 }
+	 case 'v':{
+	 }
+	 default:{
+	 }
 	}
  }
 }
